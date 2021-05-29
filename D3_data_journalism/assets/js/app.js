@@ -25,13 +25,13 @@ var chartWidth = svgWidth - chartMargin.left - chartMargin.right;
 var chartHeight = svgHeight - chartMargin.top - chartMargin.bottom;
 
 
-var toolTip = d3.select("dot")
-.append("div")
-.style("position", "absolute")
-.style("visibility", "hidden")
-.text(function(d) { 
-  return d.abbr;
-});
+// var toolTip = d3.select("dot")
+// .append("div")
+// .style("position", "absolute")
+// .style("visibility", "hidden")
+// .text(function(d) { 
+//   return d.abbr;
+// });
 
 //create variable for te svg and append it to the div with id = scatter
 var svg = d3
